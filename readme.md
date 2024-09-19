@@ -89,5 +89,3 @@ The data lakehouse system is composed of the following components:
 ## Conclusion
 
 This *data lakehouse* system provides a comprehensive architecture for managing and processing large-scale data. By integrating **MinIO**, **Apache Hive**, **MariaDB**, **Apache Iceberg**, **Trino**, and **Metabase**, the system enables flexible, scalable, and efficient data storage, processing, and analysis. It combines the best features of both *data lakes* and *data warehouses* to support a wide range of use cases, from real-time analytics to long-term data storage with transactional support.
-
-```
