@@ -38,12 +38,12 @@
 
     <property>
         <name>fs.s3a.access.key</name>
-        <value>test</value>
+        <value>radit</value>
     </property>
 
     <property>
         <name>fs.s3a.secret.key</name>
-        <value>test12334567</value>
+        <value>radit11047</value>
     </property>
 
     <property>
