@@ -33,6 +33,7 @@ services:
     ports:
       - 8080:8080
     volumes:
+      - ./trino/etc:/etc/trino
       - ./trino/catalog:/etc/trino/catalog
     networks:
       - trino-network
