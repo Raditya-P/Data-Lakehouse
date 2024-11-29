@@ -1,0 +1,11 @@
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: 'node_exporter'
+    static_configs:
+      - targets: ['...:9100']  # Replace localhost with your VPS IP if necessary
+
+  - job_name: 'cadvisor'
+    static_configs:
+      - targets: ['...:8081']  # Replace with your server's IP and cAdvisor port
